@@ -1,0 +1,117 @@
+body{
+/*	border: 10px solid red;*/
+	margin: 0;
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.fondo{
+	background-image: url(../images/background.png);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+
+}
+.frase{
+	position: relative;
+	margin: 0;
+	padding: 50px 20px 20px 20px;
+	display: block;
+	text-align: center;
+	font-size: 50px;
+
+}
+.borde {
+    color: #373837;
+ 
+    text-shadow:
+   -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+   -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+.pandaatras{
+	display: flex;
+	justify-content: center;
+}
+	
+.descripcion{
+		text-align: center;
+		/*border: 10px solid red*/;
+}
+.descripcion:after{
+
+	content: "siempre jugando ... 'una mariposa'";
+	font-size: 30px;
+	font-family: 'Indie Flower';
+
+}
+.panda{
+	/*border: 10px solid red;*/
+	height: 400px;
+	width: 500px;
+	background-image: url(../images/panda1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 1050px) {
+
+	.panda{
+		background-image: url(../images/panda2.png);
+		height: 400px;
+		width: 400px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.descripcion:after{
+	content: "haciendo amigos... 'hola'";
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	}
+}
+@media screen and (max-width: 850px) {
+	.panda{
+		background-image: url(../images/panda3.png);
+		height: 400px;
+		width: 350px;
+		background-size: 100%;
+		margin-top: 15px;
+	}
+	.descripcion:after{
+	content: "comiendo... 'Oooh, encontre comida'";
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	margin: 0 10px;
+	}
+
+}
+@media screen and (max-width: 650px) {
+	.panda{
+		background-image: url(../images/panda4.png);
+		height: 400px;
+		width: 350px;
+		background-repeat: no-repeat;
+	}
+	.descripcion:after{
+	content: "seguir comiento... 'que rico, quiero mas'";
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	}
+
+}
+@media screen and (max-width: 500px) {
+	.panda{
+		background-image: url(../images/panda5.png);
+		height: 350px;
+		width: 350px;
+		background-repeat: no-repeat;
+	}
+	.descripcion:after{
+	content: "'creo que comi mucho'";
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+	}
+
+}
