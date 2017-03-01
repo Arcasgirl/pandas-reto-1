@@ -80,7 +80,7 @@ body{
 		margin-top: 15px;
 	}
 	.descripcion:after{
-	content: "comiendo... 'Oooh, encontre comida'";
+	content: "comiendo... 'Oooh, encontré comida'";
 	font-size: 30px;
 	font-family: 'Indie Flower', cursive;
 	margin: 0 10px;
@@ -95,7 +95,7 @@ body{
 		background-repeat: no-repeat;
 	}
 	.descripcion:after{
-	content: "seguir comiento... 'que rico, quiero mas'";
+	content: "seguir comiento... 'que rico, quiero más'";
 	font-size: 30px;
 	font-family: 'Indie Flower', cursive;
 	}
@@ -109,7 +109,7 @@ body{
 		background-repeat: no-repeat;
 	}
 	.descripcion:after{
-	content: "'creo que comi mucho'";
+	content: "'creo que comí mucho'";
 	font-size: 30px;
 	font-family: 'Indie Flower', cursive;
 	}
